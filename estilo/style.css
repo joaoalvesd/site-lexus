@@ -10,7 +10,7 @@ header{
 header>h1{
     text-align: center;
     font-family: 'FilxGIRL.TTF',sans-serif;
-    font-size: 3EM;
+    font-size: 5EM;
 }
 body{
     background-image: linear-gradient(to bottom,#f51911,#de2c04de);

@@ -1,0 +1,49 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Filxgirl.TTF';
+    src: url('/fontes/Filxgirl.TTF') format('truetype');
+}
+
+header{
+
+}
+header>h1{
+    text-align: center;
+    font-family: 'FilxGIRL.TTF',sans-serif;
+    font-size: 3EM;
+}
+body{
+    background-image: linear-gradient(to bottom,#f51911,#de2c04de);
+    background-attachment: fixed;
+}
+main{
+    background-color: #FA851C;
+    border-radius: 10px;
+    margin: auto;
+    font-family: 'FilxGIRL.TTF',sans-serif;
+    height: 100%;
+    font-size: 4em;
+    padding: 30px;
+    
+}
+li{
+    list-style-type: '\2764';
+
+   
+}
+
+ul p{
+    display: none;
+}
+ul:hover p{
+    background-image: linear-gradient(to right,#F54D26,transparent );
+    display: block;
+    margin: 0px;
+}
+
+main li:hover{
+    text-decoration: underline;
+   background-image: linear-gradient(to right,#F54D26,transparent );
+  
+
+}

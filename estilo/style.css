@@ -57,7 +57,7 @@ div{
     padding: 10px;
     text-align: center;
 }
-p:hover>div.segunda{
+p.quarto:hover div.segunda{
     display: block;
 }
  div.segunda{

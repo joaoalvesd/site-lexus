@@ -2,7 +2,7 @@
 
 *{
     font-family: Arial, Sans-Serif;
-    margin: auto;
+    margin: 0px;
     padding: 0px;
 }
 header{
@@ -24,18 +24,19 @@ header p{
 }
 
 html,body{
-    height: 100vh;
-    width: 100vw;
+  
     background-color: blue;
     
-    min-width: 200px;
+    
 }
 main{
     background-color: white;
-    margin: 30px 20px 30px 0px;
-    border-radius: 0px 20px 20px 0px;
-    padding: 10px 30px 10px 50px;
-    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    max-width: 600px;
+    min-width: 300px;
     
 }
 main h1{
@@ -49,15 +50,18 @@ main p {
 }
 section{
     background-color: white;
-    margin: 10px 0px 30px 30px;
-    padding: 10px 10px 10px 20px;
-    border-radius: 20px 0px 0px 20px;
-    max-width: 500px;
+    padding: 10px; 
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    max-width: 600px;
+    min-width: 300px;
 }
 section.dados{
     background-color: white;
-    margin: 10px 20px 10px 0px;
-    border-radius: 0px 20px 20px 0px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
     
 
     

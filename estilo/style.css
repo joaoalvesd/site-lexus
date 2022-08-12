@@ -5,6 +5,11 @@
     margin: 0px;
     padding: 0px;
 }
+.container{
+    max-width: 1110px;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.499);
+}
 header{
     background-color: white;
     text-align: center;
@@ -32,7 +37,7 @@ html,body{
 main{
     background-color: white;
     padding: 10px;
-    margin: auto;
+   margin: auto;
     border-radius: 15px;
     margin-top: 20px;
     max-width: 600px;
@@ -40,7 +45,7 @@ main{
     
 }
 main h1{
-    text-align: center;
+    text-align: left;
     font-weight: bolder;
     font-size: 3em;
 }
@@ -68,11 +73,10 @@ section.dados{
 }
 div{
     padding: 10px;
-    text-align: center;
 }
-p.quarto:hover div.segunda{
-    display: block;
-}
- div.segunda{
+.quarto{
     display:none;
+}
+#iseg:checked .quarto{
+    display: block;
 }
